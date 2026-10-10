@@ -9,8 +9,6 @@ jobs:
   build:
     name: Build and deploy elpa
     runs-on: codeberg-small
-    permissions:
-      contents: read
     steps:
       - name: Fetch recipes
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
